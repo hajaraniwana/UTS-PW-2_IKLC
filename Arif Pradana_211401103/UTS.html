@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="UTS.css">
+    <title>UTS</title>
+</head>
+<body>
+    <div id="topnav">
+        <a href="#login">Form</a>
+        <a href="#table">Table</a>
+        <a href="#tools">Tools</a>
+      </div>
+      <h1 id="titlesite">Simplesite</h1>
+    <div id="login">
+        <h2 class="blink">______________________________admin_______________________________</h2>
+        <h2 class="blink">__________________________________________________________________</h2>
+        <h1>Loginform</h1>
+        <p>USERNAME :</p>
+        <input id="uname" type="text"></br>
+        <p>PASSWORD :</p>
+        <input id="pword" type="password">
+        <p></p>
+        <input id="submit" type="submit" value="submit" onclick="login(document.getElementById('uname').value,document.getElementById('pword').value)">
+        <h2 class="blink">__________________________________________________________________</h2>
+        <h2 class="blink">_____________________________admin123_____________________________</h2>
+        
+    </div>
+    <div id="table">
+        <table border="15">
+            <thead>
+                <th>Riwayat Login</th>
+                <th>Jam</th>
+                <th>Tanggal</th>
+                <th>Hari</th>
+            </thead>
+            <tr>
+                <td id="riwayat"></td>
+                <td id="jam"></td>
+                <td id="tanggal"></td>
+                <td id="hari"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="tools">
+      <h1>Kalkulator</h1>
+      <table border="1" cellspacing="0">
+        <tr>
+            <td colspan="4" id="inputLabel">0</td>
+        </tr>
+        <tr>
+            <td colspan="3"><button onclick="pushBtn(this);">CLEAR</button></td>
+            <td><button onclick="pushBtn(this);">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="pushBtn(this);">7</button></td>
+            <td><button onclick="pushBtn(this);">8</button></td>
+            <td><button onclick="pushBtn(this);">9</button></td>
+            <td><button onclick="pushBtn(this);">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="pushBtn(this);">4</button></td>
+            <td><button onclick="pushBtn(this);">5</button></td>
+            <td><button onclick="pushBtn(this);">6</button></td>
+            <td><button onclick="pushBtn(this);">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="pushBtn(this);">1</button></td>
+            <td><button onclick="pushBtn(this);">2</button></td>
+            <td><button onclick="pushBtn(this);">3</button></td>
+            <td><button onclick="pushBtn(this);">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="pushBtn(this);">0</button></td>
+            <td><button onclick="pushBtn(this);">.</button></td>
+            <td><button onclick="pushBtn(this);">=</button></td>
+        </tr>
+    </table>
+</div>
+    </div>
+    <div id="backtotop">
+        <a class="blink" href="#topnav">^</a>
+    </div>
+<script src="UTS.js"></script>
+</body>
+</html>
