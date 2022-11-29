@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: grey;
+}
+.row {
+  background: white;
+  height: 700px;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px black;
+}
+img {
+  margin-left: -30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 700px;
+  width: 600px;
+}
+#hallog {
+  margin-top: 100px;
+}
+.isi {
+  margin-left: 200px;
+}
+.btn1 {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn1:hover {
+  background: white;
+  border: 1px solid;
+  color: black;
+}
