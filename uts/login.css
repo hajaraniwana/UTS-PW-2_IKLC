@@ -1,0 +1,44 @@
+html,body{
+    height: 100%;
+    background-color: mediumspringgreen;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: greenyellow;
+}
+
+.login-form{
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background-color:lemonchiffon;
+    border-radius: 10px;
+}
+
+.card-text .form-group input{
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-text .form-group input:hover{
+    background-color: red;
+}
+
+.card-title{
+    font-weight: 850;
+    color: red;
+}
+
+.btn{
+   color: red;
+   background-color: yellow;
+   margin-top: 20px;
+}
+
+

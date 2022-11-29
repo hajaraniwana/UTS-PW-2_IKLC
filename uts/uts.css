@@ -1,0 +1,354 @@
+body{
+    background: url(bg.webp);
+    background-size: cover;
+}
+.containeruts{
+    padding-left: 20px;
+}
+
+.navbar{
+    padding-left: 25px;
+    background-color:darkmagenta;
+}
+.navbar .navbar-brand{
+    color: greenyellow;
+    font-size: 30px;
+}
+.navbar .nav-link{
+    color: yellow;
+    font-size: 20px;
+}
+.warnet{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.warnet input{
+   width: 600px;
+   height: 20px;
+   background-color:orchid;
+   color:black;
+}
+
+#tabel{
+    align-content: center;
+}
+
+.umur{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.umur input{
+    width: 600px;
+    height: 30px;
+    background-color:thistle;
+    color: green;
+    font-size: 25px;
+}
+
+.kuis{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.kuis2{
+    border: 1ch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(op2.jpeg);
+}
+.kuis input{
+    width: 600px;
+    height: 30px;
+    background:darkorange;
+    color: red;
+    font-weight: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.kuis .form-group label{
+    color: black;
+    font-size: 30px;
+    margin-left: 5px;
+    padding-left: 5px;
+    color:yellow;
+    font-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.kuis button{
+    background: red;
+    color:mediumspringgreen;
+    margin-bottom: 20px;
+}
+
+.kuis button:hover{
+    background: yellow;
+    color:black;
+}
+
+.cbi{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bmi{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.bmi label{
+    font-size: 20px;
+    color:darkorchid;
+}
+.bmi input{
+    width: 600px;
+    height: 30px;
+    background-color: grey;
+    color: yellow;
+    font-size: 20px;
+}
+
+
+.bmi h2{
+    color: red;
+}
+
+.bbi{
+   padding-left: 20px;
+   padding-top: 10px;
+}
+
+.bmi button{
+    background: purple;
+    color: yellow;
+}
+.bbi h2{
+    color: red;
+}
+
+.bmi .form-control{
+    background: red;
+}
+.bmihasil .form-control input{
+    background: yellow;
+}
+.bbi input{
+    width: 600px;
+    height: 30px;
+    background:red;
+    font-size: 20px;
+}
+
+.bbi label{
+    color: darkorchid;
+    font-size: 20px;
+}
+
+.bbi button{
+    background: purple;
+    color: yellow;
+}
+
+.tabel{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: red;
+}
+
+.shope{
+    background: url(belanja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.belanja{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+  
+}
+.tabel h1{
+    margin-left: 523px;
+    color: black;
+}
+.shope .belanja label{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.belanja input{
+    width: 600px;
+    height: 30px;
+    background:silver;
+    color: red;
+    font-size: 30px;
+}
+.belanja input #jlhbrg{
+    width: 600px;
+    height: 30px;
+}
+.belanja input #totbayar{
+    width: 700px;
+    height: 30px;
+}
+
+.belanja button{
+    background: yellow;
+    color: rebeccapurple;
+}
+
+.kalkulator {
+	position:relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: lightslategrey;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px;
+    width: 300px;
+    height: 450px;
+}
+
+.kalkulator h2 {
+	text-align: center;
+	color: greenyellow;
+	text-transform: uppercase;
+}
+
+.kalku{
+    background-color: lightblue;
+}
+.angka{
+    width: 220px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #607d8b;
+	color: white;
+	border-radius: 25px;
+}
+
+.operator {
+	background:lightgreen;
+	color:#607d8b;
+}
+
+.clear{
+    color: red;
+    background: yellow;
+    font-weight: 500;
+}
+
+.hapus{
+    color: red;
+    background: yellow;
+}
+
+
+.btn{
+   color: red;
+   background-color: yellow;
+   margin-top: 20px;
+}
+
+.warnet{
+    background-color:lavender ;
+    margin-right: 10px;
+    margin-left: 12px;
+}
+
+.warnet input{
+    color: yellow;
+    background:red;
+    width: 600px;
+    height: 30px;
+}
+.warnet label{
+    color:darkviolet;
+    font-size: 20px;
+}
+#subwarnet{
+    color: green;
+    background: yellow;
+}
+.warnet h2{
+    color: green;
+}
+
+.kuis label{
+    color: grey;
+    font-size: 20px;
+}
+.belanja label{
+    color: darkmagenta;
+    font-size: 20px;
+}
+#submit{
+    background: red;
+    color: yellow;
+}
+.kuis h2{
+    color: purple;
+}
+
+.kotak{
+    border: 1ch;
+    color: red;
+    border-style: none;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -500px;
+    justify-content:space-between;
+}
+.kotak div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 2px;
+}
+.cekumur input{
+    width: 600px;
+    height: 30px;
+    background: red;
+}
+.cekumur label{
+    font-size: 20px;
+    font-weight: bold;
+    color:darkorchid;
+}
+.cekumur button{
+    background: purple;
+    color: yellow;
+}
+.cekumur{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:thistle;
+}
+.card-footer{
+    margin-left: 10px;
+    background-color: darkmagenta;
+}
+.footer{
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    background-color:bisque;
+}
