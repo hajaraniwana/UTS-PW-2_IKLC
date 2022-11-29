@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+    </head>
+    <body class="text-center">
+      <header class="d-flex justify-content-center fixed-top py-3 bg-light">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="calculator.html" class="nav-link">Calculator</a></li>
+          <li class="nav-item"><a href="bmi.html" class="nav-link">BMI</a></li>
+          <li class="nav-item"><a href="quiz.html" class="nav-link">Quiz</a></li>
+        </ul>
+      </header>
+      <div class="row justify-content-md-between wow fadeInDown mt-5">
+        <div class="col-md-1">&nbsp;</div>
+        <div class="col-md-9">
+          <div class="card mb-3" style="width: 750px;">
+            <table class="table table-striped table-hover">
+                <tr class="bg-secondary text-center">
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>admin</td>
+                    <td>admin</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        </div>
+        <script src="assets/js/wow.js"></script>     
+            <script>
+              wow = new WOW(
+                {
+                  animateClass: 'animated',
+                  offset:       100,
+                  callback:     function(box) {
+                    console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+                  }
+                }
+              );
+              wow.init();
+              document.getElementById('moar').onclick = function() {
+                var section = document.createElement('section');
+                section.className = 'section--purple wow fadeInDown';
+                this.parentNode.insertBefore(section, this);
+              };
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+          </body>
+</html>
