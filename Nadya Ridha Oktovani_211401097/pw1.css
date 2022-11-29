@@ -1,0 +1,276 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("dino 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(69, 68, 68);
+    color: rgb(202, 133, 6);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(47, 90, 26);
+}
+
+.table, th, td {
+    border: 2px solid rgb(47, 90, 26);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.input {
+    font-size: 15px;
+    float: inline-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(34, 96, 22);
+    text-align: center;
+
+}
+
+.navbar {
+    background-color: rgb(61, 62, 72);
+    position: relative;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+button {
+    height: 50px;
+    margin: 2px;
+    font-size: 1.2em;
+    border-style: none;
+}
+
+button:hover {
+    color: rgb(253, 253, 190);
+    background-color: #0c5323;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.calculator {
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    max-width: 300px;
+   
+}
+
+.calcButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:0 auto;
+    background-color: #0e4527;
+    padding: 10px;
+}
+
+.calcButtons > button:nth-child(17) {
+ 
+    grid-column: 1/3;
+}
+
+.operator {
+    background-color: #a3e6d3;
+}
+
+.number {
+    background-color: #3aa35b;
+}
+
+.userInput {
+    position: relative;
+    height: 80px;
+    max-width: 100%;
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+    /*border: 1px solid #193366;*/
+    background-color: #a3e6d3;
+}
+
+.calcButtons > button:nth-child(19) {
+
+    background-color: rgb(218, 207, 113);
+}
+
+.userEntry {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 5px;
+    right:0;
+}
+
+.finalCalc{
+
+    position: absolute;
+    right:0;
+    margin:10px;
+    top:0;
+    padding:0;
+}
+
+h1 {
+    text-align: center;
+}
+  
+  #title {
+    text-decoration: underline;
+  }
+  
+  #quiz {
+    text-indent: 10px;
+    display: none;
+  }
+  
+.button {
+    border: 4px solid;
+    border-radius: 5px;
+    width: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    float: right;
+    background-color: #dcdcdc;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+  
+.button.active {
+    background-color: #f8f8ff;
+    color: #525252;
+}
+  
+  button {
+    position: relative;
+    float: right;
+  }
+  
+.button a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #container {
+    width: 50%;
+    margin: auto;
+    padding: 0 25px 40px 10px;
+    background-color: #2d8451;
+    border: 6px solid #b0e0e6;
+    border-radius: 5px;
+    color: #f2f2f2;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #prev {
+    display: none;
+  }
+  
+  #start {
+    display: none;
+    width: 100px;
+  }
+
+.container {
+    position: relative;
+    width: 150px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+}
+  
+.carousel {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    transform-style: preserve-3d; 
+    animation: rotate360 70s infinite forwards linear;
+}
+
+.carousel__face { 
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: 10px;
+    left: 5px;
+    right: 5px;
+    background-size: cover;
+    display: flex;
+}
+  
+span {
+    margin: auto;
+    font-size: 2rem;
+}
+  
+.carousel__face:nth-child(1) {
+    background-image: url("event\ 4.jpeg");
+    transform: rotateY(  0deg) translateZ(430px); 
+}
+
+.carousel__face:nth-child(2) { 
+    background-image: url("https://media.suara.com/pictures/653x366/2022/06/12/47459-event-chimeraland-jurassic-era-dinosaur-attack.jpg");
+      transform: rotateY( 40deg) translateZ(430px); 
+}
+
+.carousel__face:nth-child(3) {
+    background-image: url("https://img.okezone.com/content/2018/12/14/1/1991281/liburan-akhir-tahun-dufan-ancol-bakal-tampilkan-atraksi-dinoland-SIA5d18Flz.jpeg");
+    transform: rotateY( 80deg) translateZ(430px); 
+}
+
+.carousel__face:nth-child(4) {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5fe0ffc1905a7034d3c9ccbe/1615923339036-H6MZ04Z3Y6E2R9ZNP4AO/EudoraFarms-New+DAtes.jpg");
+    transform: rotateY(120deg) translateZ(430px); 
+}
+
+.carousel__face:nth-child(5) { 
+    background-image: url("https://www.jerseyoperahouse.co.uk/wp-content/uploads/2015/11/Dinosaur-Zoo-Website.jpg");
+   transform: rotateY(160deg) translateZ(430px); 
+}
+
+.carousel__face:nth-child(6) { 
+    background-image: url("https://allabout.city/singapore/wp-content/uploads/2019/07/WALKING-WITH-DINOSAURS-THE-LIVE-EXPERIENCE.png");
+   transform: rotateY(200deg) translateZ(430px); 
+}
+
+.carousel__face:nth-child(7) { 
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5IHX4m80hlSM9FtPqHU4ftbYUAjXbi7y73Ny8y631A_HNoA5BqVEBfm1VPA9pxtJ5qTstAbYsfaBt2sda0TZplV7WlR9LqeQ1VqbFNcF826c_rgjL37uJjWCLLEfrkGCE3a7aZUrmI8qe2QJePb_ULH5suCLSEkXQvcOgNwqEIxN7uBra97GfaKIO/s886/Dinosaur%20Attack.jpg");
+   transform: rotateY(240deg) translateZ(430px); 
+}
+
+.carousel__face:nth-child(8) {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs-8kJakwJ-eBXz6KrkxZeOXNu-PDKDxBKMdXNG4IWHfaOvQZLDVReQ05V9gdFGNDJTHqsw6DfoNopIpkLBedVvZ6cLYbiFNxTMhAwKB8eFYyiBhTKlIHM8744g6SDo9WWTLlgPlgrAPAjGJNP8hiNL1CdbwZkS_kQOF6RS42vE0MxeU4xZWP9eWqc/w1200-h630-p-k-no-nu/dinosaurus%20festival%20citylink%202022.jpg");
+    transform: rotateY(280deg) translateZ(430px); 
+}
+
+.carousel__face:nth-child(9) {
+    background-image: url("https://fox4kc.com/wp-content/uploads/sites/16/2021/04/AE-JQ-Logo.jpg");
+    transform: rotateY(320deg) translateZ(430px); 
+}
+  
+@keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+}
+  
