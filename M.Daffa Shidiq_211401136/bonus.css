@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/backgroundquiz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Rubik Glitch', cursive;
+  }
+
+#nav {
+    background-image: url(./images/navanime.png);
+    background-repeat: repeat-x;
+    animation: animate 25s linear infinite;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 3em;
+    margin-top: -35px;
+}
+
+@keyframes animate {
+    from{
+        background-position: 0 0;
+    } to {
+        background-position: 100% 0;
+    }
+}
+
+.card {
+    background-color: #4c4949;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.display {
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 5px rgb(0, 0, 0),1px 1px 1px #fff;
+    border: none;
+    height: 30%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.display input {
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    font-size: 30px;
+    width: 90%;
+    outline: none;
+
+}
+
+.button {
+    height: 70%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tombol-kiri{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tombol{
+    background-color: #1e1f1f;
+    box-shadow: inset 1px 1px 8px #fff,2px 5px 5px rgba(0, 0, 0, 0.700);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.tombol:hover{
+    transform: scale(0.9);
+}
+
+.tombol-kanan{
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(121, 9, 9);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.700),0px 0px 0px #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#button {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+}
