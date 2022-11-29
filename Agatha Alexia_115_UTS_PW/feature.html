@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+<title>kalkulator</title>
+</head>
+<body>
+    <form name="hitung">
+    <table id="badan">
+     <tr>
+        <td colspan="4">Bilangan 1 :</td>
+        <td><input type="number" name="bil1"></input></td>
+     </tr>
+     <tr>
+        <td colspan="4">Bilangan 2 :</td>
+        <td><input type="number" name="bil2"></td>
+     </tr>
+     <tr>
+     <td><button onclick="tambah()">+</button></td>
+     <td><button onclick="kurang()">-</button></td>
+     <td><button onclick="kali()">×</button></td>
+     <td><button onclick="bagi()">÷</button></td>
+     </tr>
+    </table>
+    </form>
+    <script>
+      function tambah(){
+          let a = document.hitung.bil1.value;
+          let b = document.hitung.bil2.value;
+          let c = (parseFloat(a) + parseFloat(b));
+          
+          document.write("Hasilnya adalah: <br>");
+          document.write(a+"+"+b+"="+c);
+    }
+    function kurang(){
+          let a = document.hitung.bil1.value;
+          let b = document.hitung.bil2.value;
+          let c = (parseFloat(a) - parseFloat(b));
+          
+          document.write("Hasilnya adalah: <br>");
+          document.write(a+"-"+b+"="+c);
+    }
+    function kali(){
+          let a = document.hitung.bil1.value;
+          let b = document.hitung.bil2.value;
+          let c = (parseFloat(a) * parseFloat(b));
+          
+          document.write("Hasilnya adalah: <br>");
+          document.write(a+"×"+b+"="+c);
+    }
+    function bagi(){
+          let a = document.hitung.bil1.value;
+          let b = document.hitung.bil2.value;
+          let c = (parseFloat(a) / parseFloat(b));
+          
+          document.write("Hasilnya adalah: <br>");
+          document.write(a+"÷"+b+"="+c);
+    }
+    </script>
+</body>
+</html>
+<style>
+body{
+    background-image: url(bgkalku.png);
+}
+table{
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(171, 218, 218);
+    border-radius: 5px;
+}
+td{
+    display: inline-block;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+
+}
+button{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+input[type="number"]{
+    border: none;
+    border-radius: 5px;
+}
+
+</style>
