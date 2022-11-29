@@ -1,0 +1,221 @@
+/* inisiasi font dari aset yang telah didownload */
+@font-face {
+    font-family: incantationFont;
+    src: url(/Assets/fonts/INCANTAT.TTF);
+}
+
+@font-face {
+    font-family: titanicFont;
+    src: url(/Assets/fonts/TrajanPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: minionsFont;
+    font-size: bold;
+    src: url(/Assets/fonts/Bauhaus\ Demi.otf) format("opentype");
+}
+
+@font-face {
+    font-family: batmanFont;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Franklin Gothic Regular'), url('/Assets/fonts/FranklinGothic.woff') format('woff');
+}
+
+/* mengubah background color pada body dan font */
+body {
+    background-color: #212121;
+    font-family: 'poppins', sans-serif;
+
+}
+
+/* mengedit navbar sampai ke navbar-nav */
+.navbar .navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    font-size: 1em;
+}
+
+nav {
+    font-size: 22px;
+    background-color: transparent;
+    height: auto;
+    transition: all 0.5s;
+}
+
+nav.activated {
+    font-size: 16px;
+    background-color: #1a1a1a;
+    height: auto;
+    transition: all 0.3s;
+}
+
+nav.navbar.activated a:hover {
+    font-size: 16px;
+    color: #dc3545;
+    height: auto;
+    transition: all 0.3s;
+}
+
+footer {
+    color: white;
+}
+
+/* 
+.carousel {
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-front{
+    position: relative;
+    z-index: 1;
+} */
+.card {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.card .buy-button {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+    width: fit-content;
+    margin-bottom: 1em;
+    margin-top: 0;
+    top: 0;
+
+}
+
+/* mengedit container selain container bawaan bootstrap */
+.notFirstContainer {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    border: 1px white solid;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    align-items: center;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.termInfo {
+    font-size: 13px;
+}
+
+.harga-promo {
+    color: #dc3545;
+}
+
+.divider {
+    border: 5px #1a1a1a solid;
+    margin-top: 1em;
+
+}
+
+.list {
+    padding-top: 2em;
+    border: 1px #1a1a1a solid;
+}
+
+.list a {
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.titleContent {
+    padding-left: 0.5em;
+    color: white;
+    color-interpolation-filters: auto;
+}
+
+#without-container.titleContent {
+    padding-left: 4em;
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+
+/* eidting scrollspy */
+.scrollspy {
+    background-color: #1a1a1a;
+    color: white;
+    margin-left: 6.4em !important;
+    padding-top: 3em;
+    position: relative;
+
+}
+
+.scrollMomento {
+    height: 300px;
+    overflow: auto;
+}
+
+/* mengedit carousel */
+.carousel-item {
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-caption {
+    text-align: left;
+    color: whitesmoke;
+    max-width: 500px;
+    bottom: 20%;
+    top: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 50%;
+    min-height: 100vh;
+}
+
+
+/* mengedit karakter tiap konten carousel */
+#incantation {
+    font-family: incantationFont;
+    font-size: 4em;
+    max-width: 500px;
+}
+
+#batman {
+    font-family: 'batmanFont', sans-serif;
+    font-size: 5em;
+    max-width: 500px;
+}
+
+#minions {
+    font-family: 'minionsFont';
+    font-size: 6em;
+    max-width: 500px;
+}
+
+#titanic {
+    font-family: titanicFont;
+    font-size: 4em;
+    max-width: 500px;
+}
+
+#incantation {
+    font-family: incantationFont;
+    font-size: 4em;
+    max-width: 500px;
+}

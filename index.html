@@ -5,38 +5,201 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <title></title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/Assets/icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/Assets/icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/Assets/icon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="icon" href="/Assets/icon/website-logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="/home.css">
+        <title>Home</title>
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Avius Pramos Fortex</a>
+        <!-- menambahkan navbar dengan kriteria background transparant, font berwarna putih, semua diatur memakai bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container fw-bold">
+                <a class="navbar-brand" href="#" style="font-size: 1.5em;">avius<span
+                        style="font-weight: bold; color: #7b349d;">Fo</span>rtex</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="/register.html">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="/portfolio.html">portfolio</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <form action="#" method="get">
-            </form>
         </nav>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Assets/incantation.jpg" class="d-block vw-100" alt="Incantation" data-bs-interval="100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="incantation">INCANTATION</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et doloremque ipsam adipisci
+                            corporis rerum facere, assumenda, labore impedit accusantium incidunt ullam dolores sed eos.
+                            Debitis sed maiores expedita cumque magnam est facere possimus necessitatibus quis!</p>
+                        <br><button class="watch-button btn btn-danger text-white ">
+                            <img class="icon" src="/Assets/icon/play-button.png" alt="play button">
+                            <span class="fw-bold">Watch now</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Assets/batman.jpg" class="d-block vw-100" alt="Batman" data-bs-interval="800">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="batman">The Dark Night</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque deleniti animi maiores
+                            ut ab. Sit aliquam excepturi perspiciatis! Nostrum inventore laudantium nam ab magnam. Quo
+                            necessitatibus perspiciatis assumenda animi et!</p>
+                        <br><button class="watch-button btn btn-danger text-white ">
+                            <img class="icon" src="/Assets/icon/play-button.png" alt="play button">
+                            <span class="fw-bold">Watch now</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Assets/minions.jpg" class="d-block vw-100" alt="minions" data-bs-interval="800">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="minions">minions</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est laborum dolorem
+                            officia veritatis minima illum quis eius corrupti reiciendis a, mollitia architecto ipsum,
+                            molestiae voluptatum debitis. Possimus, necessitatibus quas..</p>
+                        <br><button class="button btn btn-danger text-white ">
+                            <img class="icon" src="/Assets/icon/play-button.png" alt="play button">
+                            <span class="fw-bold">Watch now</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Assets/titanic.jpg" class="d-block vw-100" alt="Titanic" data-bs-interval="800">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="titanic">Titanic</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis accusantium vero
+                            repellendus magni ut aliquid fugiat, quia illo commodi maiores voluptatum, nisi, obcaecati
+                            rem praesentium repudiandae! Velit ipsum aliquid sit. </p>
+                        <br><button class="button btn btn-danger text-white ">
+                            <img class="icon" src="/Assets/icon/play-button.png" alt="play button">
+                            <span class="fw-bold">Watch now</span></button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev vh-100" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container notFirstContainer">
+            <h2 class="titleContent">Special Offers: UTS Sales</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card bg-light">
+                            <h2>Incantation</h2>
+                            <h3 class="harga-promo">Rp 20.000</h3>
+                            <p class="termInfo">Hanya berlaku di mimpi saudara-saudara</p>
+                            <br>
+                            <button class="button btn btn-danger text-white">
+                                <img class="icon" src="/Assets/icon/purchase.png" alt="purchase">
+                                <span class="fw-bold">Purchase</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card bg-light">
+                            <h2>Minions</h2>
+                            <h3 class="harga-promo">Rp 30.000,-</h3>
+                            <p class="termInfo">Berlaku di bioskop kesayangan anda (tapi tidak disayang balik haha..)
+                            </p>
+                            <br><button class="button btn btn-danger text-white ">
+                                <img class="icon" src="/Assets/icon/purchase.png" alt="purchase">
+                                <span class="fw-bold">Purchase</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row scrollspy container notFirstContainer">
+            <div class="col-4">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#list-item-1">Incantation</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">Minions</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">Batman</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">Titanic</a>
+                </div>
+            </div>
+            <div class="col-8 scrollMomento">
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                    class="list-example" tabindex="0">
+                    <h4 id="list-item-1">Incantation</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ad sint aliquid quae cumque
+                        maiores rem neque hic repellat illo recusandae odit atque a quia voluptatum error mollitia
+                        magni, ratione culpa architecto! Consectetur accusantium eligendi voluptatum nihil harum ullam
+                        assumenda vel, aut rem dicta.</p>
+                    <h4 id="list-item-2">Minions</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus voluptates iure numquam
+                        culpa recusandae quidem, nisi natus, facilis dolorem modi rerum eaque est incidunt atque quae
+                        libero earum assumenda. Minima doloribus autem consequuntur alias modi at, beatae eum. Corporis
+                        esse ullam excepturi sit.</p>
+                    <h4 id="list-item-3">Batman</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque recusandae labore nobis
+                        facilis sapiente non quis velit alias doloribus nesciunt eveniet adipisci voluptatem sunt quos
+                        soluta ipsa magni suscipit neque accusantium, perspiciatis quibusdam. Nemo qui harum, maxime cum
+                        perferendis dolorem!</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ad sint aliquid quae cumque
+                        maiores rem neque hic repellat illo recusandae odit atque a quia voluptatum error mollitia
+                        magni, ratione culpa architecto! Consectetur accusantium eligendi voluptatum nihil harum ullam
+                        assumenda vel, aut rem dicta.</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ad sint aliquid quae cumque
+                        maiores rem neque hic repellat illo recusandae odit atque a quia voluptatum error mollitia
+                        magni, ratione culpa architecto! Consectetur accusantium eligendi voluptatum nihil harum ullam
+                        assumenda vel, aut rem dicta.</p>
+                    <h4 id="list-item-4">Titanic</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero odio consequuntur, accusamus amet
+                        molestiae beatae adipisci. Debitis, alias? Laborum voluptatum aliquid inventore aspernatur amet
+                        blanditiis rerum repellendus cum voluptatibus numquam. Est rerum, perspiciatis obcaecati nam,
+                        tempore sequi esse aspernatur necessitatibus eum quibusdam, dolor vel in.</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ad sint aliquid quae cumque
+                        maiores rem neque hic repellat illo recusandae odit atque a quia voluptatum error mollitia
+                        magni, ratione culpa architecto! Consectetur accusantium eligendi voluptatum nihil harum ullam
+                        assumenda vel, aut rem dicta.</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ad sint aliquid quae cumque
+                        maiores rem neque hic repellat illo recusandae odit atque a quia voluptatum error mollitia
+                        magni, ratione culpa architecto! Consectetur accusantium eligendi voluptatum nihil harum ullam
+                        assumenda vel, aut rem dicta.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="kaki bg-dark text-light">
+            <p>Main sepeda keliling sawah, tidak lupa membeli surya ketika hujan, maaf jika website ini tak terlalu
+                indah, asal nilai aman pada uj(i)an</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </body>
 

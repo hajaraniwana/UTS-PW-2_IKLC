@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Rubik:wght@400;500&display=swap');
+
+body{
+    background-color: #181D30;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.gerak{
+    border: 2px solid transparent;
+    font-weight: 500;
+}
+
+.gerak:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}
+
+.potointro img{
+   border-radius: 185px 185px 0 0 ;
+}
+
+.keren{
+    background-image: url('/Assets/keren7.png');
+}
+
+.keren img{
+    transition: transform 0.4s;
+    border-bottom: 5px solid #ffc107;
+}
+
+.keren img:hover{
+    transform: translateY(-20px);
+}
+
+.about {
+  background: linear-gradient(  #181D30,  #181D30 );
+  background-image: url(/Assets/kerenbgt2.png);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  padding: 1px;
+}
+
+.about-container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.about h1{
+  display: inline-block;
+}
+
+#hr-except {
+  margin-top: 0;
+}
+
+.testes{
+    transition: 0.5s;
+}
+
+.skill{
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.skill img {
+  width: 150%;
+  height: auto;
+  margin-right: -350px;
+}
+
+.skill h1{
+  margin-left: 125px;
+  font-size: 195px;
+}
+
+.skill p{
+  margin-top: 17em;
+  margin-right: 45px;
+}
+
+.garis{
+    background-color: #ffc107;
+    height: 2px;
+}
+
+.gerak2 img{
+    transition: transform 0.4s;
+    border-bottom: 5px solid #ffc107;
+}
+
+.gerak2 img:hover{
+    transform: translateY(-20px);
+}
+
+.contact {
+    background-image: url('/Assets/tampan5.png');
+  margin : 100px 185px 125px 185px;
+}
+
+.contact-info{
+  margin-top: 100px;
+}
+
+.contact hr{
+  width: 102%;
+  margin-left: -10px;
+  margin-top: 0;
+  opacity: 1;
+}
+
+.contact p{
+  margin-bottom: 5px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+
+.contact .row{
+  transition: 0.2s;
+}
+
+.contact a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact .row:hover{
+  background-color: #ffc107;
+  color: black;
+}
+
+.puter a{
+    text-decoration: none;
+}
