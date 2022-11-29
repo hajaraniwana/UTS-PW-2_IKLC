@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(255, 255, 255) ;
+}
+form {
+    border-spacing: 1;
+    border-collapse: collapse;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }

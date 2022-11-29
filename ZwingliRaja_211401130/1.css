@@ -1,0 +1,30 @@
+.banner{
+    background-image: url(/img/2802621_17091314130056294396.jpg);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+.about{
+  background-color:rgb(189, 5, 5) ;
+  color: white;
+}
+.price{
+  background-color:white ;
+}
+ol {
+  border-spacing: 1;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.comment{
+  color: white;
+  background-color: rgb(189, 5, 5);
+  max-width: 800px;
+}
+#more {display: none;}
