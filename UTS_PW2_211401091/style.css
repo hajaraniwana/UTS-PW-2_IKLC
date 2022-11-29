@@ -1,0 +1,63 @@
+body {
+}
+#navhome {
+  background: black;
+}
+#konten {
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+#para {
+  font-size: 30px;
+}
+
+.Judul {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.jdul {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#artisuit {
+  padding-left: 75px;
+  padding-right: 75px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+#isi1 {
+  color: black;
+}
+#isi2 {
+  color: white;
+  background-image: url(hitamputih.jpeg);
+  box-shadow: 12px 12px 22px black;
+}
+
+.carber {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-image {
+  background-image: url('suitmonokrom.jpeg');
+  background-size: cover;
+}
+
+#tabmng {
+  width: 600px;
+  border: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-weight: bold;
+}
