@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+
+:root{
+    --main-color:#fafc82;
+    --black:#101041;
+    --bg:#0b0b36;
+    --border:.1rem solid #fcdd31;
+}
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 50%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+body{
+    background: var(--bg);
+}
+
+section{
+    padding:2rem 7%;
+}
+
+.heading{
+    text-align: center;
+    color:fcdd31;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fcdd31;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+.header{
+    background:#060625;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding:1.5rem 7%;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    
+}
+.header .logo{
+    color: #fcdd31;
+}
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 2.5rem;
+    color: #fcdd31;
+}
+
+.header .navbar a:hover{
+    color:var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+    align-content:flex-start;
+}
+#menu-btn{
+    display: none;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(/imageuts/pexels-tomasz-wilmowski-5732448.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+  
+}
+
+.home .content h3{
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform:capitalize;
+    color:#fff;
+    text-align:left;
+
+  
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 3;
+    padding:1rem 0;
+    color:#eee;
+    
+}
+.colection .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+   
+}
+
+.colection .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+.colection .box-container .box img{
+    height: 25rem;
+
+}
+
+.colection .box-container .box h3{
+    color: var(--main-color);
+    font-size: 3rem;
+    font-weight: 1000;
+    padding:1rem 0;
+
+}
+.colection .box p{
+    color: #eee;
+}
+
+
+.colection .box-container .box:hover{
+    background:#f9ffa3;
+}
+
+.colection .box-container .box:hover > *{
+    color:var(--black);
+}
+.box {
+    font-size: 2rem;
+
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    background:var(--black);
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex:1 1 20rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#f9ffa3;
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+.contact .row{
+    display: flex;
+    background:var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.contact .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#fff45e;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:var(--bg);
+    border:var(--border);
+}
+
+.contact .row form .inputBox span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#060625;
+    text-transform: none;
+    background:none;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+    align-items: flex-start;
+ }
+ 
+ .footer .box-container .box{
+    text-align: center;
+ }
+ 
+ .footer .box-container .box i{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color:#f9ffa3;
+    margin-bottom: 1rem;
+ }
+ 
+ .footer .box-container .box h3{
+    margin:1rem 0;
+    font-size: 2rem;
+    color:#fff45e;
+ }
+ 
+ .footer .box-container .box p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color:#ffec7f;
+ }
+ 
+ .footer .credit{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color:#fff45e;
+    /* padding-bottom: 7rem; */
+ }
+ 
+ .footer .credit span{
+    color:var(--main-color);
+ }
+ 
+
+

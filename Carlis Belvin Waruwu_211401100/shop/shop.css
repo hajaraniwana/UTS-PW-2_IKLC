@@ -1,0 +1,154 @@
+
+:root{
+    --main-color:#fafc82;
+    --black:#101041;
+    --bg:#0b0b36;
+    --border:.1rem solid #fcdd31;
+}
+
+*{
+    text-transform: capitalize;
+}
+.navbar a{
+    font-size: 1.5rem;
+    color: #fcdd31;   
+}
+body{
+    background: var(--bg);
+}
+
+section{
+    padding: 2rem 9%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 45vh;
+    background:url(/imageuts/pexels-lil-artsy-1192327.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+}
+
+.home .title{
+    text-align: center;
+    padding-left: 300px; 
+}
+
+.home .title h3{
+    font-size: 6rem;
+    color:#f0eded;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#ffe552;
+    color:rgb(0, 0, 0);
+    padding:.6rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+.row-items{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.container h2{
+    color: #fffdd0;
+    padding-top: 50px;
+    font-size: 50px;
+	font-weight: 800;
+    text-align: center;
+}
+
+.container-box{
+	border: 1px solid;
+	border-radius: 4px;
+    border: var(--border);
+	transition: all 1s ease 0s;
+	cursor: pointer;
+    background-color: #070729;
+}
+
+.container-img img{
+	height: 200px;
+	width: 325px;
+	padding: 10px;
+	box-shadow: 5px 30px 40px rgb(85 85 85 / 20%);
+	border-radius: 4px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.container-box .btn{
+    display: inline-block;
+    border-radius: 5rem;
+    background:var(--main-color);
+    color:#070729;
+    padding:.2rem 2rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background:#fffdd0;
+}
+
+.container-box:hover{
+	box-shadow: 5px 40px 56.1276px rgb(55 55 55 / 12%);
+	border: 1px solid transparent;
+	transform: translateY(-8px);
+}
+.calculator {
+    align-content: flex-start;
+}
+
+.calculator label{
+    color:#feffb1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.calculator h1{
+    color:#fafc82;
+    font-weight: 1000;
+    margin-top: 2rem;
+}
+.calculator h5{
+    color: #fafc82;
+    font-weight: 500;
+    
+}
+.btn-1{
+    margin-left: 2rem;
+}
+.btn-2{
+    margin-left: 10px;
+}
+.btn-3{
+    margin-left: 4.7rem;
+}
+.btn4 {
+    margin-left: 12.6rem;
+    display: inline-block;
+    border-radius: 5rem;
+    background:var(--main-color);
+    color:#070729;
+    padding:.2rem 20px;
+    font-size: 20px;
+   
+}
+.btn5{
+    display: inline-block;
+    border-radius: 5rem;
+    background:var(--main-color);
+    color:#070729;
+    padding:.2rem 20px;
+    font-size: 20px;
+}
