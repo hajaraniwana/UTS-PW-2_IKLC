@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Alice&family=Amiri:ital@1&family=Arima+Madurai&family=Audiowide&family=Bree+Serif&family=Coustard&family=EB+Garamond:wght@600&family=El+Messiri:wght@400;500&family=Lobster+Two&family=Merienda:wght@700&family=PT+Serif&family=Pacifico&family=Philosopher:wght@400;700&family=Poppins&family=Righteous&family=Source+Serif+Pro&family=ZCOOL+XiaoWei&family=Zilla+Slab:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+
+    background-image : url("https://berita.pesisirselatankab.go.id/asset/foto_berita/IMG20201221184911.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    color: rgb(252, 251, 251);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgba(246, 242, 242, 0.755);
+    padding: 50px 50px;
+    /* background-color:transparant; */
+    border-radius: 10px;
+    box-shadow: 7px 7px rgb(163, 52, 4);
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;  
+}
+
+#logo  {
+
+    flex-direction: column;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid rgb(254, 254, 254);
+    border-color: rgba(246, 248, 246, 0.301);
+    background-color: rgba(202, 101, 51, 0);
+    text-decoration: rgb(252, 251, 251);
+    padding: 13px 13px;
+    border-radius: 5px;
+    margin : 8px 0;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 550;
+}
+
+ #error-user {
+    color: rgb(250, 246, 246);
+    font-size: 14px;
+    display: none;
+}
+
+ #error-pass {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+#logo {
+    color: #fff;
+}
+
+.buttonLogin {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.buttonLogin button {
+    border: none;
+    background-color: rgba(221, 6, 6, 0.755);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.buttonLogin button:hover {
+    background-color: rgb(221, 104, 8);
+    
+}
+
+.register {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.username #username {
+    color: #fff;
+}
+
+.password #password {
+    color: #fff;
+}
+
+#loginState {
+    font-size: 15px;
+}
+
+.buttonDaftar {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.buttonDaftar button {
+    border: none;
+    background-color: rgb(51, 13, 203);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: rgb(253, 252, 254);
+    margin-bottom: 20px;
+}
+
+.buttonDaftar button:hover {
+    background-color: rgb(22, 0, 112);
+}
