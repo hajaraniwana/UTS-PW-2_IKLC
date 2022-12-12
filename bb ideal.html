@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>Program Berat Badan Ideal</title>
+  <link rel="stylesheet" type="text/css" href="bb ideal.css">
+</head>
+
+<body>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Program Penghitung Berat Badan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gender : </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="gender" id="laki-laki" value="laki_laki" checked> laki-laki
+            <input type="radio" name="gender" id="perempuan" value="perempuan"> Perempuan
+          </td>
+
+        </tr>
+        <tr>
+          <td>Masukan tinggi badan (cm)</td>
+        </tr>
+        <tr>
+          <td><input type="text" id="ipt_t"></td>
+        </tr>
+
+        <tr>
+          <td><button onclick="hitung()">Hitung</button></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td id="bmi">Hasil perhitungan BBI : 0 Kg</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <script type="text/javascript" src="bb ideal.js"></script>
+</body>
+
+</html>

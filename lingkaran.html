@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lingkaran.css">
+    <title>Document</title>
+</head>
+<body class="container">
+<script language="javascript"> 
+    function luaslingkaran() 
+    { var jari2 = parseFloat(document.funday.nilai_jari2.value);
+     if(isNaN(jari2)){ 
+    jari2=0.0;} 
+    var hasil = 3.14*jari2*jari2; 
+    alert("Jadi, luas lingkaran adalah : "+ hasil); } 
+    </script>
+    
+    <form name="funday"> 
+    <pre> 
+    Input Jari-jari = <input type="text" name="nilai_jari2" /> 
+    </pre> 
+    <input type="button" value="Hitung Sekarang" onClick="luaslingkaran()" /> 
+    <input type="reset" value="Reset" /> 
+    </form> 
+    
+    </body>
+    </html> 
