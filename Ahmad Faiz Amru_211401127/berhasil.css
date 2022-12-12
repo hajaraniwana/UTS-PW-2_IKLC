@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(21, 51, 91);
+}
+
+h1{
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: rgb(29, 57, 82);
+    font-family: 'Times New Roman', Times, serif;
+}
